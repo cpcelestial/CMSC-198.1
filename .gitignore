@@ -1,0 +1,78 @@
+# -----------------------------
+# LaTeX build files and outputs
+# -----------------------------
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.synctex(busy)
+*.dvi
+*.lof
+*.lot
+*.lol
+*.nav
+*.snm
+*.vrb
+*.upa
+*.upb
+
+# -----------------------------
+# Intermediate files
+# -----------------------------
+*.idx
+*.ilg
+*.ind
+*.glo
+*.glg
+*.gls
+*.ist
+*.acn
+*.acr
+*.alg
+*.loa
+*.maf
+*.mtc*
+*.mlf
+*.syg
+*.tps
+*.xdy
+
+# -----------------------------
+# Output files
+# -----------------------------
+*.pdf
+*.ps
+*.eps
+*.xdv
+
+# -----------------------------
+# Editor / IDE / OS files
+# -----------------------------
+# TeXstudio, TeXShop, etc.
+*.synctex
+*.synctex.gz(busy)
+*.texpadtmp
+*.backup
+*.bak
+
+# VS Code
+.vscode/
+
+# macOS / Windows metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# Build directories (optional)
+# -----------------------------
+build/
+out/
+output/
+dist/
