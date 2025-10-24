@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.24)  24 OCT 2025 20:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.24)  24 OCT 2025 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -435,16 +435,18 @@ Chapter 2.
 
 
 
-])
+]
 
-[6]
+[6])
+
+[7]
 \openout2 = `chapter_3.aux'.
 
  (chapter_3.tex
 Chapter 3.
 
 
-[7
+[8
 
 
 
@@ -461,14 +463,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--56
 
 )
 
-[8]
+[9]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
 Chapter 4.
 )
 
-[9
+[10
 
 
 
@@ -480,7 +482,7 @@ Chapter 4.
 Appendix A.
 )
 
-[10
+[11
 
 
 
@@ -492,7 +494,7 @@ Appendix A.
 Appendix B.
 )
 
-[11
+[12
 
 
 
@@ -503,7 +505,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 
-[12
+[13
 
 
 
@@ -515,22 +517,22 @@ L3 programming layer <2025-09-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6283 strings out of 468081
- 100340 string characters out of 5426272
- 513836 words of memory out of 5000000
- 34786 multiletter control sequences out of 15000+600000
+ 6285 strings out of 468081
+ 100356 string characters out of 5426272
+ 513837 words of memory out of 5000000
+ 34788 multiletter control sequences out of 15000+600000
  635633 words of font info for 70 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,10n,84p,1443b,298s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,10n,84p,1636b,298s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\asus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmcsc10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr12.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (18 pages, 86077 bytes).
+Output written on main.pdf (19 pages, 92744 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
