@@ -14,8 +14,8 @@
 \contentsline {chapter}{\numberline {3}Research Methodology}{8}{}%
 \contentsline {section}{\numberline {3.1}Research Activities}{8}{}%
 \contentsline {section}{\numberline {3.2}Calendar of Activities}{9}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{10}{}%
-\contentsline {section}{\numberline {4.1}Materials}{10}{}%
+\contentsline {chapter}{\numberline {4}System Prototype}{10}{}%
+\contentsline {section}{\numberline {4.1}System Design and Architecture}{10}{}%
 \contentsline {subsection}{\numberline {4.1.1}IOT Components}{10}{}%
 \contentsline {chapter}{\numberline {A}Appendix}{13}{}%
 \contentsline {chapter}{\numberline {B}Resource Persons}{14}{}%
