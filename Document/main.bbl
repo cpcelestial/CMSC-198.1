@@ -1,6 +1,40 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Broodryk%
+, Skala%
+\BCBL {}\ \BBA {} Broodryk%
+}{%
+Broodryk%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+broodryk:2025:LBR}
+\APACinsertmetastar {%
+broodryk:2025:LBR}%
+\begin{APACrefauthors}%
+Broodryk, A.%
+, Skala, F.%
+\BCBL {}\ \BBA {} Broodryk, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Light-Based Reaction Speed Does Not Predict Field-Based
+  Reactive Agility in Soccer Players} {Light-based reaction speed does not
+  predict field-based reactive agility in soccer players}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Functional Morphology and
+  Kinesiology}{10}{3}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.mdpi.com/2411-5142/10/3/239}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3390/jfmk10030239} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Fedkiw%
 , Stam%
 \BCBL {}\ \BBA {} Jensen%

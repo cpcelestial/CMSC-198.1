@@ -5,11 +5,73 @@
 \section{Overview of the Current State of Technology}
 \label{sec:overview}
 
-In the realm of sports science, the enhancement of athletes' response time and agility remains a critical focus, as these attributes directly influence performance in dynamic, unpredictable environments such as team sports and combat disciplines (Hassan et al., 2023). Traditional training methods, including cone drills and ladder exercises, have long been employed to improve these skills, yet they often fall short in replicating the rapid, stimulus-driven demands of real-game scenarios. Over the past decade, light-based reaction training systems—devices utilizing visual stimuli like LED lights to prompt immediate motor responses—have emerged as innovative tools to bridge this gap. Systems such as FITLIGHT, BlazePod, and XLiGHT have been critically analyzed for their design features, including sensor connectivity, battery life, and operational reliability, revealing strengths in portability and customization but limitations in diagnostic precision and validity (Ezhov et al., 2021).
+This section gives the reader an overview of the specific technology or field in the international or
+local setting. 
+The information regarding the technology or field should be contemporary and not based on outdated sources. 
+Discussion must not be too technical or too detailed.
+   
+\textcolor{red}{This section ends with a discussion on the problem/s faced by or that still exist in the specific
+technology or field (e.g., limitations of existing software or algorithms). 
+The problem statement would lead to the research objectives.}
 
-Empirical studies have demonstrated that these systems can significantly enhance visual-motor coordination, reaction speed, and cognitive functions. For instance, interventions using FITLIGHT in small-sided games have led to marked improvements in harmonic abilities (e.g., rhythmization and responsiveness) and basic skills like dribbling among young basketball players (Hassan et al., 2023). Similarly, a 10-week FITLIGHT program improved reaction times and dribbling speeds in female basketball athletes, with effect sizes indicating substantial neural adaptations (Hassan, 2025). In motorsport contexts, light-based reactive agility training has boosted selective attention, cognitive flexibility, and cardiorespiratory capacity in car racing drivers (Horváth et al., 2022). A systematic review of visual training interventions, including light board and stroboscopic methods, further corroborates these benefits, reporting 5-27\% reductions in reaction time across various sports, with greater efficacy in elite and younger athletes (Jothi et al., 2025). Reliability assessments of systems like BlazePod have also affirmed their validity for measuring simple and complex reactions in mixed martial arts (MMA) athletes, with high intraclass correlations supporting their use in training protocols (Polechoński et al., 2024).
 
-Despite these advancements, significant gaps persist in the literature. While light-based systems show promise in controlled settings, their predictive value for field-based reactive agility remains limited, as evidenced by weak correlations between laboratory reaction speeds and on-field performance in soccer players (Broodryk et al., 2025). This suggests a disconnect between isolated visual stimuli and the multifaceted perceptual-cognitive demands of sports, highlighting the need for more integrated, sport-specific designs. Moreover, comparative analyses underscore inconsistencies in system performance, such as variable Bluetooth stability and sensor delays, which could undermine training reproducibility (Ezhov et al., 2021). Long-term efficacy studies are scarce, and few investigations explore the interdisciplinary integrations between sports science and engineering to optimize these technologies.
+It is   easy to include a figure in JPG or PNG format as shown in the  following example.  
+Make sure that you explain what the figure is all about, and that you refer to your figure.  
+For example, \figref{fig:disneystock} shows a graph of the performance of Disney stock from the 1980s to 2012.
+  
+%--- the following example shows how to include a figure in PNG format
+\begin{figure}[t]                %-- use [t] to place figure at top, [b] to place at the bottom, [h] for here
+   \centering                    %-- use this to center the figure
+   \includegraphics{DisneyChart.png}      %-- include image file named as "disneychart.png" 
+   \caption{This is the figure's caption -- Disney stock chart.
+   	Captions should fully describe the figure in a concise manner  such that there is not need to refer to the text when figuring out the graphic.}
+    \label{fig:disneystock}
+\end{figure}
+
+
+Some notes on citing references.   
+When using APA format, the author-date method of citation is  followed.   
+This means that the author's last name and the year of publication for the source should  appear in the text, and a complete reference should appear in the reference list.
+
+% Examples:
+%     	Smith (1970) compared reaction times . . .
+%     	In a recent study of reaction times (Smith, 1970), . . .   
+%     	In 1970, Smith compared reaction times . . .
+%	    Smith, et al., (1970) compared reaction times . . .
+%     	In a recent study of reaction times (Smith, et al., 1970), . .
+%     	In 1970, Smith, et al., compared reaction times . . .
+
+Here are some examples on how to do the referencing (note author's name and years are different from commented examples).  
+For APA citation details, refer to \url{http://www.ctan.org/tex-archive/biblio/bibtex/contrib/apacite/}. 
+
+\begin{itemize}
+ \item \citeA{kartch:2000:ERA} compared reaction times...
+ \item In a recent study of reaction times \cite{kartch:2000:ERA}...
+ \item In \citeyearNP{kartch:2000:ERA}, \citeauthor{kartch:2000:ERA} compared reaction times...
+ \item \shortciteA{fedkiw:2001:VSO} compared reaction times... 
+ \item In a recent study of reaction times \cite{fedkiw:2001:VSO}...
+ \item In \citeyearNP{fedkiw:2001:VSO}, \shortciteauthor{fedkiw:2001:VSO}, compared reaction times...
+\end{itemize}
+
+The following are references from journal articles \cite{Park:2006:DSI, Pellacini:2005:LAH, sako:2001:SSB}.
+ Here's an MS thesis document \cite{yee:2000:SSA}, and this is from PhD dissertation \cite{kartch:2000:ERA}. 
+ For a book, reference is given as  \cite{parke:1996:CFA}. 
+ Proceedings from a conference samples are \cite{Jobs95, fedkiw:2001:VSO, levoy:2000:TDM}.  
+ The sample bibliography file named \textbf{myreferences.bib} is from the SIGGRAPH \LaTeX{}  template.  
+ You can use a text editor to view the contents of the bib file.  
+ It is your task to create your own bibliography file.  
+ For those who downloaded papers from ACM or IEEE sites, there is a BibTeX link that you can click; thereafter, you just simply need to copy and paste the BibTeX entry into your own bibliography file.
+
+The following shows how to include a program source code (or algorithm).  
+The verbatim environment, as the name suggests, outputs text (including white spaces) as is...
+
+\begin{verbatim}
+               #include <stdio.h>
+               main()
+               {
+                    printf("Hello world!\n");
+               }
+\end{verbatim}
 
 \section{Problem Statement}
 \textcolor{red}{DO NOT FORGET to write the statement of the research problem here, i.e., before the Research Objectives.}
