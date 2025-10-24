@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.24)  24 OCT 2025 23:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.24)  24 OCT 2025 23:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -456,23 +456,27 @@ Chapter 3.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 []\OT1/cmr/m/n/12 Study on Pre-req-ui-site
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 []\OT1/cmr/m/n/12 Development of Rac-ing
  []
 
 )
 
-[9]
+[10]
+
+[11]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
 Chapter 4.
-<figures/Master_node.png, id=54, 254.8722pt x 225.9642pt>
+<figures/Master_node.png, id=60, 254.8722pt x 225.9642pt>
 File: figures/Master_node.png Graphic file (type png)
 <use figures/Master_node.png>
 Package pdftex.def Info: figures/Master_node.png  used on input line 10.
@@ -482,13 +486,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[10
+[12
 
 
 
 
 ]
-<figures/Station_node.png, id=58, 284.9847pt x 225.9642pt>
+<figures/Station_node.png, id=64, 284.9847pt x 225.9642pt>
 File: figures/Station_node.png Graphic file (type png)
 <use figures/Station_node.png>
 Package pdftex.def Info: figures/Station_node.png  used on input line 19.
@@ -499,16 +503,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
 
-[11 <./figures/Master_node.png>]
+[13 <./figures/Master_node.png>]
 
-[12 <./figures/Station_node.png>]
+[14 <./figures/Station_node.png>]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
 )
 
-[13
+[15
 
 
 
@@ -520,7 +524,7 @@ Appendix A.
 Appendix B.
 )
 
-[14
+[16
 
 
 
@@ -531,7 +535,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 
-[15
+[17
 
 
 
@@ -545,7 +549,7 @@ L3 programming layer <2025-09-02>
 Here is how much of TeX's memory you used:
  6307 strings out of 468081
  101033 string characters out of 5425304
- 513891 words of memory out of 5000000
+ 512892 words of memory out of 5000000
  34810 multiletter control sequences out of 15000+600000
  635633 words of font info for 70 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -556,9 +560,9 @@ onts/cm/cmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmcsc10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (21 pages, 127606 bytes).
+Output written on main.pdf (23 pages, 131514 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 105 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
