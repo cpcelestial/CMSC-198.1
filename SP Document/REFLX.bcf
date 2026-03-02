@@ -3080,6 +3080,43 @@
     <bcf:citekey order="7" intorder="1">Polechonski:2024:RVR</bcf:citekey>
     <bcf:citekey order="8" intorder="1">Broodryk:2025:LBR</bcf:citekey>
     <bcf:citekey order="9" intorder="1">Ezhov:2021:MLS</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">Hassan:2023:ESF</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">Horvath:2022:ARA</bcf:citekey>
+    <bcf:citekey order="11" intorder="2">Jothi:2025:EVT</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Broodryk:2025:LBR</bcf:citekey>
+    <bcf:citekey order="12" intorder="2">Ezhov:2021:MLS</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">Pojskic:2019:RVU</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">Chow:2022:RTP</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">Yildiz:2020:RRA</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">Wang:2024:TME</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">Turna:2020:EAT</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">Pojskic:2019:RVU</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">Chow:2022:RTP</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">Yildiz:2020:RRA</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">Hassan:2025:FTI</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">Myers:2021:TRR</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">Hassan:2025:FTI</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">Steff:2024:IAR</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">Cekok:2025:EBV</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">Theofilou:2022:EVS</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">Cekok:2025:EBV</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">Hassan:2025:FTI</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">Horvath:2022:ARA</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">Shimi:2025:AML</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">Shimi:2025:AML</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">Theofilou:2022:EVS</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">Horvath:2022:ARA</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">Zhao:2024:RPS</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">Shimi:2025:AML</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">Becker:2025:POE</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">Becker:2025:POE</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">Labib:2021:ENS</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">Eridani:2021:CPS</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">Urazayev:2023:IPE</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">Seckin:2023:RWT</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">Rebelo:2023:FDA</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">Rebelo:2023:FDA</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">Seckin:2023:RWT</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
