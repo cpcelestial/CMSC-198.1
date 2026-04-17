@@ -1,20 +1,46 @@
 %   Filename    : chapter_4.tex 
 \chapter{Research Methodology}
-This chapter lists and discusses the specific steps and activities that  were  performed  to accomplish the project. 
-The discussion covers the activities from pre-proposal to Final SP Writing.
+
+	This study follows a step-by-step research process to develop and evaluate a light-based reaction training system for racket sports. The methodology includes gathering background information, consulting experts, and creating the initial system design. It then covers building the hardware prototype, developing the software, and testing the system with UPV athletes to measure reaction time and agility. Each stage is planned to ensure that the device is accurate, usable, and aligned with actual training needs. The process ends with analyzing the results and completing the final technical documentation.
 
 \section{Research Activities}
-Research activities include inquiry, survey, research, brainstorming, canvassing, consultation, review, interview, observe, experiment, design, test, document, etc.  
-Be sure that for each method, process, or algorithm used, there is a justification why that method was chosen.
-The methodology also includes the following information:
 
-\begin{itemize}
-   \item who is responsible for the task
-   \item the resource person to be contacted
-   \item what were done
-   \item when and how long the activity was  done
-   \item where it was done
-   \item why should the activity was done
-\end{itemize}
+	Research activities include inquiry, survey, research, brainstorming, canvassing, consultation, review, interview, observe, experiment, design, test, document, etc.
+
+\subsection{Research and Consultation}
+
+	The researchers consulted with select UPV PE Faculty to ensure and validate the feasibility and impact of the proposed device for racket sports, with said consultations taking place at the UPV Covered Court. A comprehensive research on reaction time training that utilizes light-based systems, especially those for racket sports was done during this stage of the methodology. This stage helped to establish a strong theoretical foundation, identify gaps, and ensure that the design aligns with athletic performance improvement.
+
+\subsection{Brainstorming and Prototype Development}
+
+	A number of UPV Computer Science and PE Faculty assisted the researchers in developing the final design concept of the system, which includes the integration of infrared (IR) sensors, LED light modules, and speakers. The procurement of materials and parts was done during this phase and afterwards a prototype was developed for initial testing.
+	
+	\begin{figure}[ht]              
+		\centering                    
+		\includegraphics{Master_node.png}      
+		\caption{Schematic Circuit Diagram of the Master Controller}
+		\label{fig:Master_node}
+	\end{figure}
+	
+	\figref{fig:Master_node} illustrates the schematic circuit diagram of the master controller. At the core of this design is a standard ESP32 microcontroller, which manages two primary tasks: sending commands to the station modules and collecting the reaction-time data they generate. The main controller also includes a DF Mini MP3 player module that provides audio cues for training modes requiring sound-based stimuli by reading audio files stored on an SD card and outputting them through a connected 3W speaker for clear and amplified playback. The entire system is powered by a 3.7V 18650 battery and a TP4056 charging module with built-in protection ensures that the battery safely charges. Lastly, the A 3.3V voltage regulator provides a stable supply for the ESP32, while a separate step-up converter generates the required 5V output for the DF Mini MP3 module and the speaker.
+	
+	\begin{figure}[h]               
+		\centering                    
+		\includegraphics{Station_node.png}      
+		\caption{Schematic Circuit Diagram of the Station Controller }
+		\label{fig:Station_node}
+	\end{figure}
+	
+	\figref{fig:Station_node} illustrates the schematic circuit diagram of the station controllers. Each station uses an ESP32 Super Mini C3 microcontroller, chosen for its compact size and sufficient number of GPIO pins to support the required sensors. The station node receives commands from the main controller and executes them accordingly. It controls a programmable LED strip, which lights up based on the received command and turns off when the connected infrared sensor detects a response. The station then records the performer’s reaction time and sends this data back to the main controller. Like the main controller, each station node is powered by a 3.7V 18650 battery paired with a TP4056 charging module with built-in protection. A voltage regulator provides a stable 3.3V supply for the microcontroller, while a step-up converter generates the 5V needed for the LED strip. The LED strip is connected through a dual MOSFET driver, which serves as a switch to safely control the 5V load from the station controller.
+
+\subsection{Latency Benchmarking of Bluetooth vs ESP-NOW}
+	
+	The wireless communication latency of the ESP-NOW protocol and Bluetooth was empirically benchmarked under controlled indoor conditions. Since reaction-time assessment is highly sensitive to communication delays, quantifying the transmission latency between the master controller and station nodes is essential for validating the system’s responsiveness and synchronization reliability.
+	
+	The benchmarking setup consisted of one master controller and one station controller positioned at varying distances of approximately 1 meter, 2 meters, and 5 meters within an indoor environment similar to the intended deployment setting. Each station controller was configured as an ESP-NOW peer of the master controller, as well as all devices operating on a fixed Wi-Fi channel to minimize external interference.
+	
+	Latency measurements were obtained using a timestamp-based approach. Upon initiating a stimulus command, the master controller records a transmission timestamp using the ESP32’s internal clock. Upon reception of the command, the station controller immediately transmits an acknowledgment packet back to the master controller. The master controller then records the reception timestamp of this acknowledgment. One-way latency was estimated from the transmission-to-reception interval at the station, while round-trip latency was computed as the time difference between command transmission and acknowledgment reception at the master controller.
+	
+	Each latency test was repeated over 50 trials per distance (1 meter, 2 meters, and 5 meters) to account for variability. The mean latency, standard deviation, and worst-case delay was computed for each distance condition. The results of this benchmark was used as the empirical basis for selecting ESP-NOW as the system’s wireless protocol, demonstrating that its low-latency, connectionless design is suitable for synchronized, multi-station reaction training where precise timing is critical.
 
 
